@@ -1,0 +1,33 @@
+body{
+    background-color: darkkhaki;
+    margin: 1.5%;
+}
+.topbot{
+    background-color: #2f4f4f;
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px 15px 0px;
+    height: 700px;
+    justify-content: space-between;
+}
+main{
+    background-color: darkolivegreen;
+    
+    width: 69%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside{
+    background-color: darkolivegreen;
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
