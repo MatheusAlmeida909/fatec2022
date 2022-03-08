@@ -1,33 +1,50 @@
-body{
-    background-color: darkkhaki;
-    margin: 1.5%;
+body {
+  background-color: rgb(243, 168, 180);
+  margin: 20px;
+  display: block;
 }
-.topbot{
-    background-color: #2f4f4f;
-    display: flex;
-    justify-content: space-around;
+.topbot {
+  background-color: #9adbc5;
+  display: flex;
+  justify-content: space-around;
 }
-.content{
-    display: flex;
-    flex-direction: row;
-    margin: 15px 0px 15px 0px;
-    height: 700px;
-    justify-content: space-between;
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px 15px 0px;
+  height: 750px;
+  justify-content: space-between;
 }
-main{
-    background-color: darkolivegreen;
-    
-    width: 69%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+  background-color: rgb(255, 125, 125);
+
+  width: 69%;
+
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
 }
-.aside{
-    background-color: darkolivegreen;
-    width: 29%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.maincontent {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image {
+  background-color: rgb(199, 199, 199);
+  width: 180px;
+  height: 180px;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.aside {
+  background-color: rgb(65, 199, 181);
+  width: 29%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
